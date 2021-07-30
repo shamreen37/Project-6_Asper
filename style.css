@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -86,14 +88,14 @@ img {
 }
 
 .navbar .dropdown-menu {
-    min-width: 20rem !important;
+    min-width: 22rem;
     border: 0 !important;
     margin-bottom: 10px;
 }
 
 .navbar .dropdown-menu h6 {
     font-size: 16px;
-    margin: 8px 0 !important;
+    margin: 10px 0 !important;
 }
 
 .document-div {
@@ -268,11 +270,11 @@ img {
 
 .footer-section {
     background-color: #212832;
-    color: rgb(175, 175, 175);
+    color: rgb(161, 161, 161);
 }
 
 .footer-container {
-    max-width: 1000px !important;
+    max-width: 1100px !important;
 }
 
 .footer-section i {
@@ -282,12 +284,17 @@ img {
 
 .footer-section p {
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer-section h5 {
     font-size: 15px;
     margin-bottom: 12px;
+    color: #e2e2e2 !important;
+}
+
+.footer-section h3 {
+    color: #e2e2e2 !important;
 }
 
 .footer-circle {
@@ -308,10 +315,15 @@ img {
         width: 88%;
         margin: auto;
     }
+    .contact-div {
+        width: 85% !important;
+        margin: auto;
+    }
     .footer-container {
         padding: 0 20px !important;
     }
     .navbar .dropdown-menu {
         max-width: 90vw !important;
+        min-width: 10rem;
     }
 }
